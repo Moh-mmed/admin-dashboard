@@ -5,7 +5,7 @@ import StoreIcon from "@mui/icons-material/Store";
 import AddCardIcon from "@mui/icons-material/AddCard";
 import QueryStatsIcon from "@mui/icons-material/QueryStats";
 import DeliveryDiningIcon from "@mui/icons-material/DeliveryDining";
-import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
+import NotificationsActiveOutlinedIcon from "@mui/icons-material/NotificationsActiveOutlined";
 import SettingsSystemDaydreamIcon from "@mui/icons-material/SettingsSystemDaydream";
 import LockOpenIcon from "@mui/icons-material/LockOpen";
 import SettingsInputCompositeIcon from "@mui/icons-material/SettingsInputComposite";
@@ -49,7 +49,7 @@ const Sidebar = () => {
             <span>Delivery</span>
           </li>
           <li>
-            <NotificationsActiveIcon className="icon" />
+            <NotificationsActiveOutlinedIcon className="icon" />
             <span>Notifications</span>
           </li>
           <p className="title">SERVICE</p>
@@ -62,7 +62,7 @@ const Sidebar = () => {
             <span>Logs</span>
           </li>
           <li>
-            <SettingsInputCompositeIcon  className="icon"/>
+            <SettingsInputCompositeIcon className="icon" />
             <span>Settings</span>
           </li>
           <p className="title">USER</p>
