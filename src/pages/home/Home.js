@@ -5,8 +5,8 @@ import './home.scss'
 const Home = () => {
   return (
     <div className="home">
-      <Navbar />
-      <Sidebar/>
+      <Sidebar />
+      <div className="home-container">container</div>
     </div>
   )
 }
