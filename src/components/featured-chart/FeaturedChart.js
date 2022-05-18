@@ -7,7 +7,7 @@ import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDown
 
 
 const initialChart = {
-  sqSize: 150,
+  sqSize: 130,
   percentage:60,
   strokeWidth: 6,
 }
