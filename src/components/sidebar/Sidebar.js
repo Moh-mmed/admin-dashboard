@@ -1,14 +1,14 @@
 import './sidebar.scss'
 import DashboardIcon from '@mui/icons-material/Dashboard';
-import SupervisedUserCircleIcon from "@mui/icons-material/SupervisedUserCircle";
-import StoreIcon from "@mui/icons-material/Store";
+import SupervisedUserCircleOutlinedIcon from "@mui/icons-material/SupervisedUserCircleOutlined";
+import StoreOutlinedIcon from "@mui/icons-material/StoreOutlined";
 import AddCardIcon from "@mui/icons-material/AddCard";
 import QueryStatsIcon from "@mui/icons-material/QueryStats";
-import DeliveryDiningIcon from "@mui/icons-material/DeliveryDining";
+import DeliveryDiningOutlinedIcon from "@mui/icons-material/DeliveryDiningOutlined";
 import NotificationsActiveOutlinedIcon from "@mui/icons-material/NotificationsActiveOutlined";
-import SettingsSystemDaydreamIcon from "@mui/icons-material/SettingsSystemDaydream";
+import SettingsSystemDaydreamOutlinedIcon from "@mui/icons-material/SettingsSystemDaydreamOutlined";
+import SettingsInputCompositeOutlinedIcon from "@mui/icons-material/SettingsInputCompositeOutlined";
 import LockOpenIcon from "@mui/icons-material/LockOpen";
-import SettingsInputCompositeIcon from "@mui/icons-material/SettingsInputComposite";
 import FaceIcon from "@mui/icons-material/Face";
 import LogoutIcon from "@mui/icons-material/Logout";
 
@@ -28,11 +28,11 @@ const Sidebar = () => {
           </li>
           <p className="title">LIST</p>
           <li>
-            <SupervisedUserCircleIcon className="icon" />
+            <SupervisedUserCircleOutlinedIcon className="icon" />
             <span>Users</span>
           </li>
           <li>
-            <StoreIcon className="icon" />
+            <StoreOutlinedIcon className="icon" />
             <span>Products</span>
           </li>
           <li>
@@ -45,7 +45,7 @@ const Sidebar = () => {
             <span>Stats</span>
           </li>
           <li>
-            <DeliveryDiningIcon className="icon" />
+            <DeliveryDiningOutlinedIcon className="icon" />
             <span>Delivery</span>
           </li>
           <li>
@@ -54,7 +54,7 @@ const Sidebar = () => {
           </li>
           <p className="title">SERVICE</p>
           <li>
-            <SettingsSystemDaydreamIcon className="icon" />
+            <SettingsSystemDaydreamOutlinedIcon className="icon" />
             <span>System Health</span>
           </li>
           <li>
@@ -62,7 +62,7 @@ const Sidebar = () => {
             <span>Logs</span>
           </li>
           <li>
-            <SettingsInputCompositeIcon className="icon" />
+            <SettingsInputCompositeOutlinedIcon className="icon" />
             <span>Settings</span>
           </li>
           <p className="title">USER</p>

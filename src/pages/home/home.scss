@@ -1,6 +1,12 @@
 .home{
     display: flex;
     .home-container{
-        flex: 5
+        flex: 5;
+
+        .widgets{
+            display: flex;
+            padding: 1.5rem;
+            gap: 1.5rem
+        }
     }
 }
