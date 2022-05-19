@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+a, a:focus{
+  text-decoration: none;
+  color: inherit;
+}
 .App {
   font-family: 'Poppins', sans-serif;
 }

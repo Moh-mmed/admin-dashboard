@@ -1,0 +1,63 @@
+.App.dark{
+    background-color: #222;
+    color: rgb(156,156,156);
+
+    .widget .title{
+         color: rgb(209, 209, 209);
+    }
+    .title{
+        color:#ffd24cb2;
+    }
+    .featured-chart .bottom .summary .item .item-title{
+        color: rgb(209, 209, 209);
+    }
+    .latest-transactions .list-title{
+        color: #ffd24cb2;
+    }
+    .basic-table{
+        background-color: rgb(56, 56, 56);
+        .table-cell{
+            color: rgb(156, 156, 156);
+        }
+    }
+    .navbar{
+        color: rgb(156, 156, 156);
+        border-color: rgb(80, 80, 80);
+
+        .search{
+            border-color: rgb(80, 80, 80);
+        }
+        .wrapper .items .item .counter{
+            background-color: #ffd24cb2;
+        }
+    }
+    .sidebar{
+        background-color: #222;
+        color: rgb(156, 156, 156);
+        border-color: rgb(80, 80, 80);
+
+        .top .logo{
+            color: #4b4881
+        }
+
+        .line {
+            border-color: rgb(80, 80, 80);
+        }
+
+        .center{
+            .title{
+               color: #ffd24cb2;
+            }
+            li {
+                &:hover {
+                    background-color: rgba(184, 184, 190, 0.15);
+                }
+        
+                .icon {
+                    color: #4b4881
+                }
+        
+            }
+        }
+    }
+}
