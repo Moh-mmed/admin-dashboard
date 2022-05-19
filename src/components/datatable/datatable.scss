@@ -16,28 +16,25 @@
     }
 
     .cellWithStatus{
-        padding: .5rem;
+        padding: 4px 0;
+        min-width: 70px;
+        text-align: center;
         border-radius: 5px;
-    
+        cursor: pointer;
+
         &.active {
             display: inline-block;
-            width: 64px;
-            text-align: center;
             color: #4BB543;
             background-color: rgba(75, 181, 67, .15);
         }
     
         &.pending {
             display: inline-block;
-            width: 64px;
-            text-align: center;
             color: #FFD24C;
             background-color: rgba(255, 210, 76, .15);
         }
         &.passive {
             display: inline-block;
-            width: 64px;
-            text-align: center;
             color: #ff3333;
             background-color: rgba(255, 51, 51, .15);
         }
@@ -48,19 +45,22 @@
         gap: 1rem;
 
         .viewButton{
-            padding: 2px 5px;
+            padding: 4px 0;
+            min-width: 70px;
+            text-align: center;
             border-radius: 5px;
             color: rgb(21, 19, 60);
-            border: 1px dotted rgba(21, 19, 60, .5);
+            background-color: rgba(21, 19, 60, .3);
             cursor: pointer;
         }
         .deleteButton{
-            padding: 2px 5px;
+            padding: 4px 0;
+            min-width: 70px;
+            text-align: center;
             border-radius: 5px;
             color: rgb(21, 19, 60);
-            border: 1px dotted #ff3333;
+            background-color: rgba(255, 51, 51, .3);
             cursor: pointer;
-            
         }
     }
 }

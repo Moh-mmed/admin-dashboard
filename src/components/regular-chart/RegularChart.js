@@ -1,11 +1,11 @@
 import LineChart from './LineChart';
 import './regularChart.scss'
 
-const RegularChart = () => {
+const RegularChart = ({title}) => {
   return (
     <div className="regular-chart">
-      <h1 className="title">Last 6 Months (income)</h1>
-      <LineChart/>
+      <h1 className="title">{title}</h1>
+      <LineChart />
     </div>
   );
 }

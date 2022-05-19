@@ -1,0 +1,87 @@
+.single {
+    display: flex;
+    width: 100%;
+
+    .single-container {
+        flex: 5;
+        .top {
+            padding: 1.3rem;
+            display: flex;
+            gap: 20px;
+            
+            .left {
+                position: relative;
+                flex: 1;
+                padding: .8rem;
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                border-radius: 10px;
+
+                .edit-button {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: .3rem;
+                    font-size: .8rem;
+                    color: #15133C;
+                    background-color: rgba(21, 19, 60,.3);
+                    border-radius: 0px 10px 0px 5px;
+                    cursor: pointer;
+                }
+
+                .item {
+                    display: flex;
+                    gap: 20px;
+
+                    .item-img {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    .details {
+                        .item-title {
+                            margin-bottom: .7rem;
+                            color: #555;
+                        }
+
+                        .detail-item {
+                            margin-bottom: .7rem;
+                            font-size: .9rem;
+
+                            .item-key {
+                                font-weight: bold;
+                                color: gray;
+                                margin-right: .3rem;
+                            }
+
+                            .item-value {
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right {
+                flex: 2;
+            }
+        }
+
+        .bottom {
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            padding: 0.8rem;
+            margin: .7rem 1.3rem;
+            border-radius: 10px;
+        }
+
+        .title {
+            margin-bottom: 1.3rem;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #FFD24C;
+        }
+    }
+}
