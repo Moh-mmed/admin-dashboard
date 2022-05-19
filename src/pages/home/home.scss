@@ -1,9 +1,8 @@
 .home{
-    height: 4000px;
     display: flex;
     .home-container{
         flex: 5;
-
+ 
         .widgets, .charts{
             display: flex;
             padding: 1.5rem;

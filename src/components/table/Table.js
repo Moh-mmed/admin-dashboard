@@ -10,7 +10,7 @@ import Paper from "@mui/material/Paper";
 const DataTable = () => {
     const rows = [
       {
-        id: 1515156,
+        id: 1565156,
         product: "Acer Nitro 5",
         img: "https://picsum.photos/300",
         customer: "John Smith",
@@ -20,7 +20,7 @@ const DataTable = () => {
         status: "Approved",
       },
       {
-        id: 1515156,
+        id: 1575156,
         product: "Acer Nitro 5",
         img: "https://picsum.photos/300",
         customer: "John Smith",
@@ -30,8 +30,8 @@ const DataTable = () => {
         status: "Pending",
       },
       {
-        id: 1515156,
-        product: "Acer Nitro 5",
+        id: 1585156,
+        product: "Acer Nitro 4",
         img: "https://picsum.photos/300",
         customer: "John Smith",
         date: "1 March",
@@ -40,8 +40,8 @@ const DataTable = () => {
         status: "Approved",
       },
       {
-        id: 1515156,
-        product: "Acer Nitro 5",
+        id: 1595156,
+        product: "Acer Nitro 6",
         img: "https://picsum.photos/300",
         customer: "John Smith",
         date: "1 March",
